@@ -1,0 +1,7 @@
+<h1>All Events</h1>
+
+<% for event in @events %>
+<p>
+    <a href="https://baconfestchicago.com/2019-menu/"> <%= event[:title] %>: <%= event[:description] %></a>
+</p>
+<%end%>
